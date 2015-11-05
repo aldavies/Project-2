@@ -1,0 +1,17 @@
+<h1 class="title">
+	Title: <%= @product.item %>
+</h1>
+
+<p class="date">
+	Date: Submitted <%= time_ago_in_words(@product.created_at)%> Ago
+</p>
+
+<p class="quantity">
+	Quantity: <%= @product.quantity %>
+</p>
+
+<p class="price">
+	Price: <%= @product.price %>
+</p>
+
+
